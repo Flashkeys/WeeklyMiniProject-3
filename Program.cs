@@ -8,7 +8,6 @@ string sweden = "Sweden";
 string germany = "Germany";
 AssetList assetList = new AssetList();
 
-// tracker.AddAsset(new Smartphone(new Price(200, Currency.USD), DateTime.Now.AddMonths(-36 + 4), "Motorola", "X3", usa)); 
 assetList.AddAsset(new Smartphone(new Price(200, Currency.USD), DateTime.Now.AddMonths(-36 + 4), "Motorola", "X3", usa));
 assetList.AddAsset(new Smartphone(new Price(400, Currency.USD), DateTime.Now.AddMonths(-36 + 5), "Motorola", "X3", usa));
 assetList.AddAsset(new Smartphone(new Price(400, Currency.USD), DateTime.Now.AddMonths(-36 + 10), "Motorola", "X2", usa));
@@ -29,17 +28,6 @@ assetList.AddAsset(new Computer(new Price(1600, Currency.EUR), DateTime.Now.AddM
 assetList.AddAsset(new Computer(new Price(1200, Currency.EUR), DateTime.Now.AddMonths(-36 + 4), "Asus", "ROG 500", germany));
 assetList.AddAsset(new Computer(new Price(1200, Currency.EUR), DateTime.Now.AddMonths(-36 + 3), "Asus", "ROG 500", germany));
 assetList.AddAsset(new Computer(new Price(1300, Currency.EUR), DateTime.Now.AddMonths(-36 + 2), "Asus", "ROG 500", germany));
-/*
-assets.Add(new Phone("iPhone", "8", "Spain", new DateTime(2018, 12, 29), 970, "EUR", 801.65)); 
-assets.Add(new Computer("HP", "Elitebook", "Spain", new DateTime(2019, 6, 1), 1423, "EUR", 1176.03)); 
-assets.Add(new Phone("iPhone", "11", "Spain", new DateTime(2020, 9, 25), 990, "EUR", 818.18)); 
-assets.Add(new Phone("iPhone", "X", "Sweden", new DateTime(2018, 7, 15), 1245, "SEK", 10375)); 
-assets.Add(new Phone("Motorola", "Razr", "Sweden", new DateTime(2020, 3, 16), 970, "SEK", 8083.33)); 
-assets.Add(new Computer("HP", "Elitebook", "Sweden", new DateTime(2020, 10, 2), 588, "SEK", 4900)); 
-assets.Add(new Computer("ASUS", "W234", "USA", new DateTime(2017, 4, 21), 1200, "USD", 1200)); 
-assets.Add(new Computer("Lenovo", "Yoga 730", "USA", new DateTime(2018, 5, 28), 835, "USD", 835)); 
-assets.Add(new Computer("Lenovo", "Yoga 530", "USA", new DateTime(2019, 5, 21), 1030, "USD", 1030));  
- */
 
 
 Console.WriteLine("To show list - enter:'P'   To quit - enter: 'Q'");
